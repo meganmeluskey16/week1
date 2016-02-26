@@ -1,0 +1,129 @@
+#title {
+			font-size: 20px;
+			font-family: 'Butcherman', cursive;
+			text-align: center;
+			color: #ffffff;
+			font-weight: bold;
+			width: 90px;
+			padding: 20px;
+			margin:20px;
+			background: #C5B358;
+			position:relative
+			-moz-box-shadow: 15px 15px 5px #888245; /* For Firefox/Mozilla */
+			-webkit-box-shadow: 15px 15px 5px #888245; /* For Google Chrome and Safari */
+			-o-box-shadow: 15px 15px 5px #888245; /* For Opera */
+			box-shadow: 15px 15px 5px #888245;
+			animation:example 5s infinite;
+			-moz-animation:example 5s infinite;
+			-webkit-animation:example 5s infinite;
+    	}
+
+@keyframes example {
+    0%   {background-color: orange;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+@-webkit-keyframes example{
+	 0%   {background-color: orange;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+@-moz-keyframes example{
+	 0%   {background-color: orange;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color:  
+
+}
+
+li{
+	float: left;
+	background-color: yellow;
+
+}
+
+
+li a {
+    display: center;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+body {
+	background-image: url("da670/background.jpg");
+	background-size: 1200px;
+}
+
+#sidebar1 {
+	float: right;
+	height: 100px;
+	width: 200px;
+	margin: 10px;
+	
+	 -webkit-transform: rotateZ(30deg); /* Safari */
+    transform: rotateZ(30deg); /* Standard syntax */
+}
+
+#main {
+	height: 100px;
+	width: 500px;
+	border: solid 10px;
+	margin: 100px;
+	padding left: 70px;
+	text-align: center;
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2
+
+}
+
+
+aside {
+	height: 100px;
+	width: 100px;
+	border: solid 10px;
+	margin: 100px;
+	padding left: 70px;
+	text-align: center;
+   
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+}
+
+aside:hover {
+    width: 300px;
+    height: 200px;
+}
+    
+#snap {
+	float: center;
+	padding: 5px;
+	-webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+}
+
+#snap:hover {
+    width: 300px;
+    height: 200px;
+}
+
+
+
